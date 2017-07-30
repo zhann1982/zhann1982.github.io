@@ -1,0 +1,28 @@
+.header {
+	background-color: #357;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.s1 img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.s2, .s3 {
+	text-align: center;
+	color: #ddd;
+}
+
+.s3 > a {
+	text-decoration: none;
+	color: #ddd;
+}

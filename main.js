@@ -3399,6 +3399,8 @@ $anim(function () {
 	var plZ = projToZ(pl, nrm4);
 	var plXY = projFixXY(plZ, nrm4);
 	cc4.cls();
+	cc4.text("Rotating object around axis, which is also", 50, 50, "arial", 18, "black");
+	cc4.text("rotating around Y-axis", 50, 80, "arial", 18, "black");
 	cc4.text("Rotating object around Z-axis", 50, 50, "arial", 18, "black");
 	cc4.mpath(mPathTransl(mpath3dto2d(plXY), [250, 200]), "purple", 3);
 	ang = ang + 0.003;

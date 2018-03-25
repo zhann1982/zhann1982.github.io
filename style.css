@@ -5,6 +5,7 @@ body {
 	display: grid;
 	grid-gap: 5px;
 	grid-template: repeat(3,1fr)/repeat(4,1fr);
+	
 }
 .block {
 	background-color: yellow;
